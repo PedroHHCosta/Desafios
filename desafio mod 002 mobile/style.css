@@ -1,0 +1,92 @@
+@charset "UTF-08";
+@font-face {
+    font-family: android;
+    src: url(fontes/idroid.otf);
+}
+
+body{
+    background-color: #84E1AD;
+    margin: 0%;
+}
+.header{
+    background-image: linear-gradient(#84E1AD,#1A5C38);
+    text-align: center;
+    color: white;
+}
+#MENU{
+    text-align: left;
+    color: white;
+    font-weight: 800;
+}
+.main{
+    background-color: white;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+#MENU > a {
+    margin-left: 5px;
+    color: white;
+    text-decoration: none;
+    margin-left: 2em;
+    margin-right: 1em;
+}
+h1{
+    font-family: android;
+    color: #1B5C39 ;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.main > h2{
+    text-align: start;
+    background-image: linear-gradient(to right, #84E1AD, white );
+    color: #1B5C39;
+    font-family: Android;
+    margin:5%;
+    padding-left: 3%;
+}
+p{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.lista{
+    background-color: #7E9689;
+    display: flex;
+    flex-direction: column;
+}
+.caixa_listas{
+    display: flex;
+    align-items: center;
+}
+#lista_dir{
+    justify-content: center;
+    padding-left: 25%;
+}
+.header > h1 {
+    font-family:Arial, Helvetica, sans-serif ;
+    color: white;
+}
+.lista{
+    background-color: #C5EBD6;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px 5px 5px 5px;
+}
+#rodapé{
+    background-color: #1B5C39;
+    color: white;
+    text-align: center;
+}
+.lista > .mais {
+    background-color: rgb(47, 168, 102);
+    border: 0px;
+    border-radius: 5px 5px 0px 0px;
+    color: white;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-weight: 800;
+    padding-left: 2px;
+}
